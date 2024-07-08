@@ -6,6 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Check Point HTML</title>
         <link rel="icon" href="pngegg.png">
+        <link rel="stylesheet" href="checkpoint.css">
+        <style>
+            body {
+              font-family: 'Roboto', sans-serif;
+            }
+          </style>
+        
     </head>
 
     <body>
@@ -25,7 +32,7 @@
             <section id="About">
             <h1>About</h1>
 
-            <table border="2">
+            <table>
                 <tr>
                     <th>Article</th>
                     <th>Taille</th>
@@ -63,10 +70,10 @@
                 <li>Puis li</li>
             </ul>
     
-            <ol type="A">
+            <ol>
                 <li>OL pour ordred list</li>
                 <li>Dans l'attribue type on peut mettre soit des lettres soit des chiffres</li>
-                <li>Ca s'ecrit type = "A" ou "1"</li>
+                <li>Ca s'ecrit type = "A" </li>
             </ol>
     
             <dl>
@@ -114,10 +121,51 @@
             <hr>
 
             <footer>
+                <div class="footer-content">
+                  <div class="footer-section about">
+                    <h2 class="logo-text">CSS CLASS</h2>
+                    <p>
+                      Il faut encore que je refasse le cours de CSS à la maison. 
+                    </p>
+                    <div class="contact">
+                      <span><i class="fas fa-phone"></i> &nbsp; +123-456-789</span>
+                      <span><i class="fas fa-envelope"></i> &nbsp; essiabenkheder@gmail.com</span>
+                    </div>
+                    <div class="socials">
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                  </div>
+                  <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-section contact-form">
+                    <h2>Merci l'IA</h2>
+                    <br>
+                    <form action="index.html" method="post">
+                      <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                      <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                      <button type="submit" class="btn btn-big">
+                        <i class="fas fa-envelope"></i>
+                        Send
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  &copy; essiabenkheder | Designed by IA
+                </div>
+              </footer>
 
-          This is my footer 
-
-            </footer>
 
             </html>       
 
